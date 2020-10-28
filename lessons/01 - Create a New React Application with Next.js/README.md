@@ -18,7 +18,9 @@ The best part of creating a Next.js app from scratch, is Next.js provides us wit
 
 ### 1. Creating a new Next.js app with Create Next App
 
-Our very first exercise is creating a new Next.js app.
+As you notice, this first lesson directory is empty. That's on purpose!
+
+Our very first exercise is creating a new Next.js app from scratch.
 
 To do this, Next.js provides an easy-to-use tool called Create Next App that we can run right from our terminal that creates a new project, installs the dependencies, and gets us up and running in no time.
 
