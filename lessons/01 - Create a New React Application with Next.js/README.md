@@ -48,7 +48,7 @@ Since our goal is to ultimately create a new ecommerce store, we don't want our 
 
 Update the page title (`<h1>`) and description (`<p>`) at the top of the page to something that describes your new store.
 
-_Note: this change won't persist through the lesson material, but now is a good time to understand how Next.js works!_
+> _Note: this change won't persist through the lesson material, but now is a good time to understand how Next.js works!_
 
 #### Where We'll Make Changes
 * `pages/index.js`
