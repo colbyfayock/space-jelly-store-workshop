@@ -4,6 +4,8 @@ React is a powerful library that gives us the ability to build dynamic apps with
 
 Next.js is a web framework that sits on top of React taking the power of React to another level. With it, we get additional data fetching utilities and site compilation that providers optimized builds with logical ways of managing our data.
 
+How can we use these tools to build a dynamic web app?
+
 ## Getting Started
 
 For our first lesson, we're going to walk through building a Next.js app from scratch.
