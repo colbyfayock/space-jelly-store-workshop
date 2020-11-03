@@ -28,30 +28,19 @@ The grid we'll use is already set up to use [flexbox](https://developer.mozilla.
   <tr>
     <td>
       <p>
-        ⚠️ For this exercise you'll also want to think of some products that you'd like to add. If you want to follow along, you can use the following products:
+        For this exercise you'll also want to think of some products that you'd like to add. If you want to follow along, you can use the following products:
       </p>
       <ul>
-        <li>
-          Tshirt
-          <ul>
-            <li>Title: Space Jelly Tshirt</li>
-            <li>Description: Bring Cosmo the space Jellyfish to your wardrobe with this high quality tshirt.</li>
-          </ul>
-        </li>
-        <li>
-          Stickers
-          <ul>
-            <li>Title: Space Jelly Stickers</li>
-            <li>Description: Add some flare to your laptop with a sticker of Cosmo the Space Jellyfish.</li>
-          </ul>
-        </li>
-        <li>
-          Tshirt & Stickers Combo
-          <ul>
-            <li>Title: Space Jelly Combo</li>
-            <li>Description: Show your love for Cosmo with a tshirt and sticker combo pack!</li>
-          </ul>
-        </li>
+        <li>Title: Space Jelly Tshirt</li>
+        <li>Description: Bring Cosmo the space Jellyfish to your wardrobe with this high quality tshirt.</li>
+      </ul>
+      <ul>
+        <li>Title: Space Jelly Stickers</li>
+        <li>Description: Add some flare to your laptop with a sticker of Cosmo the Space Jellyfish.</li>
+      </ul>
+      <ul>
+        <li>Title: Space Jelly Combo</li>
+        <li>Description: Show your love for Cosmo with a tshirt and sticker combo pack!</li>
       </ul>
     </td>
   </tr>
