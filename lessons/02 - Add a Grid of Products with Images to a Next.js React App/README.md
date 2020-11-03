@@ -1,4 +1,4 @@
-# Lesson 02: Add a Grid of Products with Images to a Next.js React App
+# 📓 Lesson 02: Add a Grid of Products with Images to a Next.js React App
 
 The core of any shopping experience is simply being able to see what the store has to offer! This includes what products are available and how much each one of them costs.
 
@@ -16,6 +16,8 @@ We'll start off by updating the default Next.js template to include our products
 * Update the default page styles
 
 ## Exercises
+
+🕵️‍♂️ Use the `@lesson-02-todo` key to search for this lesson's assignments in the code!
 
 ### 1. Add some products to the homepage of an online store
 
