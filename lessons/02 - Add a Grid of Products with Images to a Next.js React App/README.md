@@ -83,3 +83,6 @@ Make some or all of the following changes to the product grid:
 
 #### Where We'll Make Changes
 * `styles/Home.module.css`
+
+#### Resources
+* [Built-In CSS Support - Next.js Docs](https://nextjs.org/docs/basic-features/built-in-css-support)
