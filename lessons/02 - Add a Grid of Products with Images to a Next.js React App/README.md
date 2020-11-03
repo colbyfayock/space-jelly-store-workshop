@@ -23,30 +23,17 @@ To get started adding our products to the app, we can take advantage of the defa
 
 The grid we'll use is already set up to use [flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) that includes card-like components that contain information. So, we'll re-use those same cards to add our product information to our app.
 
-<table>
-  <tr>
-    <td>
-      <p>
-        <strong>👋 Hey! Quick Note</strong>
-      </p>
-      <p>
-        For this exercise you'll also want to think of some products that you'd like to add. If you want to follow along, you can use the following products:
-      </p>
-      <ul>
-        <li>Title: Space Jelly Tshirt</li>
-        <li>Description: Bring Cosmo the space Jellyfish to your wardrobe with this high quality tshirt.</li>
-      </ul>
-      <ul>
-        <li>Title: Space Jelly Stickers</li>
-        <li>Description: Add some flare to your laptop with a sticker of Cosmo the Space Jellyfish.</li>
-      </ul>
-      <ul>
-        <li>Title: Space Jelly Combo</li>
-        <li>Description: Show your love for Cosmo with a tshirt and sticker combo pack!</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+> 👋 **Hey! Quick Note**
+> For this exercise you'll also want to think of some products that you'd like to add. If you want to follow along, you can use the following products:
+> 1. Tshirt
+>     * Title: Space Jelly Tshirt
+>     * Description: Bring Cosmo the space Jellyfish to your wardrobe with this high quality tshirt.
+> 2. Stickers
+>     * Title: Space Jelly Stickers
+>     * Description: Add some flare to your laptop with a sticker of Cosmo the Space Jellyfish.
+> 3. Tshirt & Stickers Combo
+>     * Title: Space Jelly Combo
+>     * Description: Show your love for Cosmo with a tshirt and sticker combo pack!
 
 Update the cards on the homepage to include the title and description of each product.
 
