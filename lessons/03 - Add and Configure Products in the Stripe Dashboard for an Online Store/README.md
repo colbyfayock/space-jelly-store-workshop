@@ -10,7 +10,7 @@ For lesson 3, we'll be getting ourselves familiar with the Stripe dashboard and 
 
 We'll learn where we can find the product management page and actually add new products to Stripe. We'll then configure those products with the same details we used in [Lesson 02](https://github.com/colbyfayock/space-jelly-store-workshop/tree/main/lessons/02%20-%20Add%20a%20Grid%20of%20Products%20with%20Images%20to%20a%20Next.js%20React%20App) including the images and title.
 
-> **Hey! Quick Note**
+> 🧑‍🚀 **Hey! Quick Note**
 > <br>
 > For this lesson, we'll be working inside of the Stripe dashboard. There will be no code changes for these exercises.
 
