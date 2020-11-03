@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
+import products from '../products.solution.json';
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -19,29 +21,18 @@ export default function Home() {
         </p>
 
         <ul className={styles.grid}>
-          <li className={styles.card}>
-            <a href="#">
-              <img src="/images/spacejelly-tshirt.jpg" alt="Space Jelly Tshirt" />
-              <h3>Space Jelly Tshirt</h3>
-              <p>Bring Cosmo the space Jellyfish to your wardrobe with this high quality tshirt.</p>
-            </a>
-          </li>
-
-          <li className={styles.card}>
-            <a href="#">
-              <img src="/images/spacejelly-stickers.jpg" alt="Space Jelly Stickers" />
-              <h3>Space Jelly Stickers</h3>
-              <p>Add some flare to your laptop with a sticker of Cosmo the Space Jellyfish.</p>
-            </a>
-          </li>
-
-          <li className={styles.card}>
-            <a href="#">
-              <img src="/images/spacejelly-combo.jpg" alt="Space Jelly Combo Pack" />
-              <h3>Space Jelly Combo</h3>
-              <p>Show your love for Cosmo with a tshirt and sticker combo pack!</p>
-            </a>
-          </li>
+          {products.map(product => {
+            const { id, title, image, description } = product;
+            return (
+              <li key={id} className={styles.card}>
+                <a href="#">
+                  <img src={image} alt={title} />
+                  <h3>{ title }</h3>
+                  <p>{ description }</p>
+                </a>
+              </li>
+            )
+          })}
         </ul>
       </main>
 

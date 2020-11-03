@@ -73,30 +73,42 @@
 
 .grid {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: stretch;
+  justify-content: flex-start;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 60em;
+  list-style: none;
+  padding-left: 0;
   margin-top: 3rem;
 }
 
 .card {
   margin: 1rem;
-  flex-basis: 45%;
   padding: 1.5rem;
+  flex-basis: calc(50% - 2rem);
   text-align: left;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+
+@media (min-width: 960px ) {
+  .card {
+    flex-basis: calc(33.33% - 2rem);
+  }
+}
+
+.card:hover img {
+  box-shadow: 0 2px 12px rgba(0,0,0,.1);
+}
+
+.card img {
+  display: block;
+  max-width: 100%;
+  padding: .5em;
+  border-radius: .5em;
+  margin: 0 -.5em 1em;
 }
 
 .card h3 {
