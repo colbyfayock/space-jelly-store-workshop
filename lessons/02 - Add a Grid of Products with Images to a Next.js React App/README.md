@@ -21,4 +21,6 @@ We'll start off by updating the default Next.js template to include our products
 
 ### 2. Import local images into the app for each product
 
-### 3. Update the app styles for a better user experience
+### 3. Change the product grid into an unordered list for better accessibility
+
+### 4. Update the app styles for a better user experience
