@@ -1,4 +1,4 @@
-# Lesson 01: Create a New React Application with Next.js
+# 📓 Lesson 01: Create a New React Application with Next.js
 
 React is a powerful library that gives us the ability to build dynamic apps with the power of JavaScript and the browser. With it, we can personalize apps and add interactions that allow us to deliver a better user experience to our visitors.
 
