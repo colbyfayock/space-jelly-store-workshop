@@ -1,4 +1,4 @@
-# Lesson 03: Add and Configure Products in the Stripe Dashboard for an Online Store
+# 📓 Lesson 03: Add and Configure Products in the Stripe Dashboard for an Online Store
 
 Part of any ecommerce store starts with what you're trying to sell: the products.
 
