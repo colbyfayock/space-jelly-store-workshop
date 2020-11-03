@@ -18,6 +18,23 @@ export default function Home() {
           The best space jellyfish swag on the web!
         </p>
 
+        {/**
+          * @lesson-02-todo Exercise 1
+          * We want to add products to our app. How can we use the code that
+          * already comes with Next.js to get started adding our products?
+          *
+          * @lesson-02-todo Exercise 2
+          * Our product details are important, but it's also important to show
+          * some images of our products. Let's import pictures of our products
+          * and display those images above our product titles.
+          *
+          * @lesson-02-todo Exercise 3
+          * Using an unordered list typically makes more sense semantically when
+          * showing a list of something like in our case, products. Update the
+          * grid of products to an unordered list with a list item that wraps
+          * each product card.
+          */}
+
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h3>Documentation &rarr;</h3>

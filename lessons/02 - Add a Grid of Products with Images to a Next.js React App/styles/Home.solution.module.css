@@ -1,3 +1,13 @@
+/**
+ * @lesson-02-todo Exercise 4
+ * We can update each .card element to take up 1/3 of the
+ * available space when above 960px. Because we added
+ * an unordered list, we can use list-style to remove
+ * the default list styles. We can also remove the hover
+ * effect from the default card styles and apply them only
+ * to the image when the card is hovered over.
+ */
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;

@@ -1,3 +1,11 @@
+/**
+ * @lesson-02-todo Exercise 4
+ * The default styles that come with Next.js along with our
+ * default unordered list styles are probably not exactly what
+ * we want things to look like. Update the styles to make
+ * the products easier to use and read.
+ */
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;

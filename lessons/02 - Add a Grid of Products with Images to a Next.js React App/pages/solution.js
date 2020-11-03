@@ -18,6 +18,21 @@ export default function Home() {
           The best space jellyfish swag on the web!
         </p>
 
+        {/**
+          * @lesson-02-todo Answer 1
+          * Inside each card, We can add our product title right inside of
+          * each <h3> and our description inside of the <p>.
+          *
+          * @lesson-02-todo Answer 2
+          * Adding images to the public directory allows us to reference them
+          * as if they were hosted right on our website.
+          *
+          * @lesson-02-todo Answer 3
+          * We can use the <ul> element with a <li> element wrapping each card
+          * link to set up a proper list. We can also move the card className
+          * to the list item to move the styles for the cards.
+          */}
+
         <ul className={styles.grid}>
           <li className={styles.card}>
             <a href="#">
