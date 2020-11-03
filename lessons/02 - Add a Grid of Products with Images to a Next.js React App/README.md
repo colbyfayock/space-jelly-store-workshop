@@ -28,7 +28,7 @@ The grid we'll use is already set up to use [flexbox](https://developer.mozilla.
   <tr>
     <td>
       <p>
-        For this exercise you'll also want to think of some products that you'd like to add. If you want to follow along, you can use the following products:
+        ⚠️ For this exercise you'll also want to think of some products that you'd like to add. If you want to follow along, you can use the following products:
       </p>
       <ul>
         <li>
