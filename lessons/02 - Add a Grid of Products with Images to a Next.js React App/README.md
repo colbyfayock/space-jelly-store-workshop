@@ -75,5 +75,9 @@ Make some or all of the following changes to the product grid:
 * Add a shadow to the product image when hovering over a card
 * Whatever else you'd like!
 
+> 👋 **Hey! Quick Note**
+>
+> These styles won't persist to the next lesson, but this can be good practice to learn how to make CSS changes inside of a Next.js app.
+
 #### Where We'll Make Changes
 * `styles/Home.module.css`
