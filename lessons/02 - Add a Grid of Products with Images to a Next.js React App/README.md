@@ -24,6 +24,7 @@ To get started adding our products to the app, we can take advantage of the defa
 The grid we'll use is already set up to use [flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) that includes card-like components that contain information. So, we'll re-use those same cards to add our product information to our app.
 
 > 👋 **Hey! Quick Note**
+> 
 > For this exercise you'll also want to think of some products that you'd like to add. If you want to follow along, you can use the following products:
 > 1. Tshirt
 >     * Title: Space Jelly Tshirt
