@@ -20,9 +20,18 @@ We'll learn where we can find the product management page and actually add new p
 
 > 👋 **Hey! Quick Note**
 > 
-> For this lesson, we'll be working inside of the Stripe dashboard. There will be no code changes for these exercises.
+> For this lesson, we'll be working inside of the Stripe dashboard. There will be no code changes for these exercises. If you haven't already created a Stripe account, now is the time to get that set up.
 
 ### 1. Familiarize yourself with the Stripe dashboard and find the product management section
+
+If this is your first time browsing around the Stripe dashboard, there's a lot to see! 
+
+Stripe is a powerful service that allows us to manage payments and the purchase details that go along with those payments including what products they bought and how much they cost.
+
+Take some time to look around the Stripe dashboard, but particularly find the Products section which we'll use in our next exercise to add our products.
+
+#### Where you should be looking
+* [Stripe Dashboard](https://dashboard.stripe.com/dashboard) (dashboard.stripe.com)
 
 ### 2. Create your first products inside of Stripe
 
