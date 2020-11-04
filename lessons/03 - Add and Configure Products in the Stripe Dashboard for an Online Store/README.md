@@ -63,4 +63,19 @@ Create a new product for each product in the app.
 
 ### 3. Customize the products with images
 
+While product images are optional for Stripe, adding them is helpful for providing a better checkout experience for our customers. Particular, when someone proceeds to purchase the products, Stripe will use the product images as a thumbnail so our customers can understand through the whole process what exactly they're going to purchase.
+
+Use the same images from Lesson 2 to add a picture to each product in Stripe.
+
 ### 4. Understand what product identifiers we'll need for later
+
+At this point we should have all of our products set up and get ready to go including the product title and an image so customers know what they're purchasing.
+
+After creating each product though, you may have noticed that you immediately get unique identifiers for different parts of the product including an overall product ID but also an API ID for each price.
+
+You can think of this like you have a product, but each product has a different variation. If I'm selling tickets to a concert that have differnet pricing points, I might use two different prices to distinguish between a cheaper option and more expensive option.
+
+While we aren't currently using these IDs in our app, we'll use the API ID to let Stripe know exactly what product our customers are purchasing in future lessons.
+
+#### Where you should be looking
+* [Stripe Dashboard - Products](https://dashboard.stripe.com/products) (dashboard.stripe.com)
