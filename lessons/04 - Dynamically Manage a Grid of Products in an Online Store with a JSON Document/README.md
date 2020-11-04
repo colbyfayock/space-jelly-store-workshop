@@ -51,6 +51,10 @@ For each of our products in the app, create a new object inside of the array tha
 > }
 > ```
 
+#### Where We'll Make Changes
+* `products.json`
+
+### 3. 
 
 ## Extra Credit
 
