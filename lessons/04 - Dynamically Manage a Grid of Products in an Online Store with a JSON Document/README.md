@@ -39,6 +39,14 @@ Now that we're ready to go with our JSON doc, we can start setting up our produc
 
 For each of our products in the app, create a new object inside of the array that includes the products title, description, and the link to the image file.
 
+> ```
+> Test
+> ```
+
+> ```
+testtest
+>```
+
 ## Extra Credit
 
 ### 1. shared global file
