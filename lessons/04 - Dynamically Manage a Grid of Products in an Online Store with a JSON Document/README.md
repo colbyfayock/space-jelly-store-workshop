@@ -39,13 +39,18 @@ Now that we're ready to go with our JSON doc, we can start setting up our produc
 
 For each of our products in the app, create a new object inside of the array that includes the products title, description, and the link to the image file.
 
+> 👋 **Hey! Quick Note**
+>
+> Here's an idea of what each of the product objects should look like in the `products.json` document.
+>
 > ```
-> Test
+> {
+>   "title": "[Product Title]",
+>   "description": "[Product Description]",
+>   "image": "/images/[product-image].jpg"
+> }
 > ```
 
-> ```
-testtest
->```
 
 ## Extra Credit
 
