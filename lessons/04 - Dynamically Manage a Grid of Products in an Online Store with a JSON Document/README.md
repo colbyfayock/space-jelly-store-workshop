@@ -1,4 +1,4 @@
-# Lesson 04: Dynamically Manage a Grid of Products in an Online Store with a JSON Document
+# 📓 Lesson 04: Dynamically Manage a Grid of Products in an Online Store with a JSON Document
 
 Manually creating blocks of HTML for every product in our store can take a long time depending on how many products the store has. On top of that, making any changes to those products makes that even more of a challenge as you try to search through the file and know where to make the change.
 
