@@ -55,7 +55,7 @@ Create a new product for each product in the app.
 > | Space Jelly Stickers | $10.00        |
 > | Space Jelly Combo    | $25.00        |
 
-### Where you should be looking
+#### Where you should be looking
 * [Stripe Dashboard - Products](https://dashboard.stripe.com/products) (dashboard.stripe.com)
 
 #### Resources
