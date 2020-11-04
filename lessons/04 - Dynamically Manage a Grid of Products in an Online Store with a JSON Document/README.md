@@ -54,8 +54,58 @@ For each of our products in the app, create a new object inside of the array tha
 #### Where We'll Make Changes
 * `products.json`
 
-### 3. 
+### 3. Update each product with its unique product price ID
+
+As we talked about in Lesson 3, each product that we created included a unique price ID which is also called an API ID. This API ID (price ID) is what we'll use to interface with the Stripe API to allow our customers to purchase.
+
+For each of our products, find the unique price API ID for each product and add it as an `id` property inside of the product objects inside of `products.json`.
+
+> 👋 **Hey! Quick Note**
+>
+> Here's an idea of what each of the product objects should look like in the `products.json` document.
+>
+> ```
+> {
+>   "id": "[Product ID]",
+>   ...
+> }
+> ```
+
+#### Where We'll Make Changes
+* `products.json`
+
+#### Where you Should Look
+* [Products in Stripe Dashboard](https://dashboard.stripe.com/test/products) (dashboard.stripe.com)
+
+### 4. Use the products JSON document to dynamically create the product cards UI
+
+At this point, we should now have a JSON document that represents the same product data inside of our application. Now let's use it to dynamically build out app!
+
+Inside of our homepage, we're manually setting up a new card for each product, but instead, we can use the map function to loop through each item of our `products.json` file and use that data to create our product card.
+
+> 👋 **Hey! Quick Note**
+>
+> When using the map function to create React components, you want to have a unique `key` prop on each component. We can take advantage of our unique `id` property of each product for that prop.
+
+#### Where We'll Make Changes
+* `pages/index.js`
+
+#### Resources
+* [Lists and Keys](https://reactjs.org/docs/lists-and-keys.html) (reactjs.org)
 
 ## Extra Credit
 
-### 1. shared global file
+### 1. Update the global shared products JSON document with personalized product data
+
+Each lesson in this course uses its own set of files, meaning, changes to the `products.json` document won't carry on to the next lesson.
+
+To get around that, future lessons will be taking advantage of a shared `products.json` file that lives in the `lessons` folder of this repository where we can make our product changes and have them available throughout all of the lessons.
+
+Take a moment to review the shared `products.json` file inside of `shared/products.json` and udate any product data that you may have customized for your app including the unique price ID for your products.
+
+> 👋 **Hey! Quick Note**
+>
+> In order for the Stripe integration to work later, you'll need to make sure you have the right price ID set for each product.
+
+#### Where We'll Make Changes
+* `lessons/shared/products.json`
