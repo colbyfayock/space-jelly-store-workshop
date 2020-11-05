@@ -6,6 +6,9 @@ Instead, we can manage our products in a central location and use that to build 
 
 ## Getting Started
 
+For lesson 4, we're going to learn how we can dynamically manage our products with an external file rather than manually managing them inside of the code.
+
+We can use the standard JSON format to create a `.json` file where we can store that data. Then, we'll loop through that data and build our UI.
 
 ## Objectives
 * Create a JSON document and import it into the app
