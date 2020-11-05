@@ -1,6 +1,12 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
+/**
+ * @lesson-04-todo Exercise 1
+ * Once we create our file to manage our projects, we'll need to import
+ * it to make it available as data in our app.
+ */
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -17,6 +23,13 @@ export default function Home() {
         <p className={styles.description}>
           The best space jellyfish swag on the web!
         </p>
+
+        {/**
+          * @lesson-04-todo Exercise 4
+          * With our product data availabe to use in the form of an array, how can
+          * we take advantage of that to avoid having to manually manage each product
+          * in our code?
+          */}
 
         <ul className={styles.grid}>
           <li className={styles.card}>
