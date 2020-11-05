@@ -101,7 +101,7 @@ Each lesson in this course uses its own set of files, meaning, changes to the `p
 
 To get around that, future lessons will be taking advantage of a shared `products.json` file that lives in the `lessons` folder of this repository where we can make our product changes and have them available throughout all of the lessons.
 
-Take a moment to review the shared `products.json` file inside of `shared/products.json` and udate any product data that you may have customized for your app including the unique price ID for your products.
+Take a moment to review the shared `products.json` file inside of `shared/products.json` and update any product data that you may have customized for your app including the unique price ID for your products.
 
 > 👋 **Hey! Quick Note**
 >
