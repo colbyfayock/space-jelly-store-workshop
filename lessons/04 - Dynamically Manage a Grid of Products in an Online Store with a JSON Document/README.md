@@ -66,7 +66,7 @@ For each of our products, find the unique price API ID for each product and add 
 >
 > ```
 > {
->   "id": "[Product ID]",
+>   "id": "[Product Price ID]",
 >   ...
 > }
 > ```
