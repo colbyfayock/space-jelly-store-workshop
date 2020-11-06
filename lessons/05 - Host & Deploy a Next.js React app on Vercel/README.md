@@ -52,8 +52,41 @@ Add your existing Next.js project to a new GitHub repository.
 
 ### 3. Importing a new Next.js project to Vercel from GitHub
 
+Now that we have a project on GitHub, we're ready to dig into Vercel and get this thing deployed!
+
+Vercel makes the process relatively painless with it's import wizard and bonus, they can even detect it's a Next.js app!
+
+Import your GitHub repository to Vercel.
+
+#### Resources
+* [Deploy an Existing Project - Vercel](https://vercel.com/docs/introduction#deploy-an-existing-project) (vercel.com)
+* [Import Git Repository - Vercel](https://vercel.com/import) (vercel.com)
+
 ### 4. Understanding how changes automatically get deployed
+
+Because we connected our project from GitHub to Vercel, we automatically can take advantage of automatic deployments from our main branch on GitHub straight to Vercel. This means, once we push or merge a change to our main branch, it will automatically update on the web!
+
+We can test this out by making an arbitrary change in our project, like the page title, and seeing that change update right on our project.
+
+Make a simple text change (or anything you really want) and push it to GitHub. Once there, find the deployments in Vercel and watch as that change automatically deploys.
+
+#### Resources
+* [Git Deployments - Vercel](https://vercel.com/docs/platform/deployments#git) (vercel.com)
 
 ## Extra Credit
 
-### 1. Customizing your Vercel project domain
+### 1. Customizing your Vercel project subdomain (optional)
+
+When importing a project into Vercel, Vercel will attempt to use the name of that project for the subdomain name, looking something along the lines of:
+```
+[project-name].vercel.app
+```
+
+The good news, is this is completely customizable. Once inside of your project settings in Vercel, you can find the Domains section and change that to what you want as long as it's available.
+
+> Bonus: if you have a custom domain name already registered, you can even set that up to work with Vercel!
+
+Optional: update your project's subdomain to something you'd like!
+
+#### Resources
+* [Custom Domains - Vercel](https://vercel.com/docs/custom-domains) (vercel.com)
