@@ -6,7 +6,9 @@ To do this though, Stripe Checkout relies on the browser to make API requests, w
 
 ## Getting Started
 
+Now that we have our web app deployed, we're goint to configure Stripe to allow us to set up a payment integration with our project.
 
+In lesson 6, we'll walk through finding the Checkout settings and how we can configure our Stripe account to allow our domain to work.
 
 ## Objectives
 * Locate Checkout settings in Stripe dashboard
@@ -15,9 +17,12 @@ To do this though, Stripe Checkout relies on the browser to make API requests, w
 
 ## Exercises
 
-
 > 👋 **Hey! Quick Note**
 >
 > For this lesson, we'll be working inside of Stripe. There will be no code changes for these exercises.
 
-### 1.
+### 1. Find the Checkout settings in the Stripe dashbaord
+
+### 2. Enable Client-Only integrations in Stripe
+
+### 3. Configure hosted Next.js web app as an allowed domain in Stripe
