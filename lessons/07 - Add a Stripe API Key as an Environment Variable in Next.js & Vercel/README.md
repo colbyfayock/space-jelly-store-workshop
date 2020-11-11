@@ -6,7 +6,9 @@ Some of these keys are able to be used publicly and some must be kept private, b
 
 ## Getting Started
 
+The API key is what allows us to connect to Stripe and integrate their checkout experience with our app.
 
+In lesson 7, we're going to find our API key in our Stripe account and figure out how we can use it in our Next.js app. We'll set it up as an environment variable which will allow us to access it later in our code as well as make it easily interchangeable if we ever need to change it.
 
 ## Objectives
 * Find API key in Stripe dashboard
@@ -18,22 +20,24 @@ Some of these keys are able to be used publicly and some must be kept private, b
 
 
 
-### 1.
+### 1. Locate your unique API key in the Stripe dashboard
 
 
 
-### 2.
+### 2. Create an environment variables file to store the API key
 
 
 
 #### Where We'll Make Changes
-* `/.env.local`
+* `.env.local`
 
-### 3.
+### 3. Log the environment variable to the web console
 
 
+#### Where We'll Make Changes
+* `pages/index.js`
 
-### 4.
+### 4. Add the API key as an environment variable in Vercel
 
 ## Extra Credit
 
