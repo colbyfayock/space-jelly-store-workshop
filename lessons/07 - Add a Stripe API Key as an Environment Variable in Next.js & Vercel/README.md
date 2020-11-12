@@ -18,7 +18,7 @@ In lesson 7, we're going to find our API key in our Stripe account and figure ou
 
 ## Exercises
 
-
+🕵️‍♂️ Use the `@lesson-07-todo` key to search for this lesson's assignments in the code!
 
 ### 1. Locate your unique API key in the Stripe dashboard
 
