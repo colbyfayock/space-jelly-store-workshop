@@ -28,9 +28,9 @@ The grid we'll use is already set up to use [flexbox](https://developer.mozilla.
 Update the cards on the homepage to include the title and description of each product.
 
 > 👋 **Hey! Quick Note**
-> 
+>
 > For this exercise you'll also want to think of some products that you'd like to add. If you want to follow along, you can use the following products:
-> 
+>
 > | Product Title        | Product Description |
 > | -------------------- | ------------------  |
 > | Space Jelly Tshirt   | Bring Cosmo the space Jellyfish to your wardrobe with this high quality tshirt. |
@@ -49,7 +49,7 @@ That means, we can show big descriptive images so our customers know exactly wha
 Add an image above the title to each product card.
 
 > 👋 **Hey! Quick Note**
-> 
+>
 > For this exercise, similar to the last, you can follow along and use the images available inside of the `public/images` directory that correspond to each of the products described above.
 
 #### Where We'll Make Changes
@@ -86,3 +86,14 @@ Make some or all of the following changes to the product grid:
 
 #### Resources
 * [Built-In CSS Support](https://nextjs.org/docs/basic-features/built-in-css-support) (nextjs.org)
+
+## Extra Credit
+
+### 1. Add the price of each product to the page
+
+Our page currently shows a list of our products, but there's one important thing missing--how much does it cost?
+
+Add the price of each item as another attribute on each product card.
+
+#### Where We'll Make Changes
+* `pages/index.js`

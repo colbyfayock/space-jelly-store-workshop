@@ -36,6 +36,7 @@ export default function Home() {
             <a href="#">
               <img src="/images/spacejelly-tshirt.jpg" alt="Space Jelly Tshirt" />
               <h3>Space Jelly Tshirt</h3>
+              <p>$20.00</p>
               <p>Bring Cosmo the space Jellyfish to your wardrobe with this high quality tshirt.</p>
             </a>
           </li>
@@ -44,6 +45,7 @@ export default function Home() {
             <a href="#">
               <img src="/images/spacejelly-stickers.jpg" alt="Space Jelly Stickers" />
               <h3>Space Jelly Stickers</h3>
+              <p>$10.00</p>
               <p>Add some flare to your laptop with a sticker of Cosmo the Space Jellyfish.</p>
             </a>
           </li>
@@ -52,6 +54,7 @@ export default function Home() {
             <a href="#">
               <img src="/images/spacejelly-combo.jpg" alt="Space Jelly Combo Pack" />
               <h3>Space Jelly Combo</h3>
+              <p>$25.00</p>
               <p>Show your love for Cosmo with a tshirt and sticker combo pack!</p>
             </a>
           </li>
