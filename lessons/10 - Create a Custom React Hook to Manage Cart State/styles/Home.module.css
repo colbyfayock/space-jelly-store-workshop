@@ -53,11 +53,13 @@
 }
 
 .title,
-.description {
+.description,
+.cart {
   text-align: center;
 }
 
-.description {
+.description,
+.cart {
   line-height: 1.5;
   font-size: 1.5rem;
 }
@@ -144,4 +146,30 @@
   border: 0;
   box-shadow: 0 2px 6px rgba(0, 0, 0, .4);
   cursor: pointer;
+}
+
+.cart {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.cart li {
+  display: flex;
+  align-items: center;
+  margin: 0 .5em;
+}
+
+.cart strong,
+.cart svg {
+  margin-right: .4em;
+}
+
+.cartButton {
+  display: inline-flex;
+  align-items: center;
+  color: blueviolet;
+  background: none;
+  box-shadow: none;
+  padding: 0;
 }
