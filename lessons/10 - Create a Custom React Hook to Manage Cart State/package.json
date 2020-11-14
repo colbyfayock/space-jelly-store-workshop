@@ -1,0 +1,17 @@
+{
+  "name": "lesson-10",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@stripe/stripe-js": "^1.11.0",
+    "dotenv": "^8.2.0",
+    "next": "9.5.5",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  }
+}
