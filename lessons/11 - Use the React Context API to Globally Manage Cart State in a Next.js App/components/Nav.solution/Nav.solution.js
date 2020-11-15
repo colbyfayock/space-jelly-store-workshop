@@ -6,7 +6,7 @@ import { useCart } from '../../hooks/use-cart.solution.js';
 
 const Nav = () => {
   /**
-   * @lesson-11-solution Exercise 4
+   * @lesson-11-solution Exercise 5
    *
    */
   const { subtotal, checkout } = useCart();

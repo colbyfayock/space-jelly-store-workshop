@@ -4,12 +4,19 @@ import { CartContext, useCartState } from '../hooks/use-cart.solution.js';
 
 import Nav from '../components/Nav.solution';
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }) {\
+  /**
+   * @lesson-11-solution Exercise 4
+   *
+   */
+
+  const cart = useCartState();
+
   /**
    * @lesson-11-solution Exercise 2
    *
    */
-  const cart = useCartState();
+
   return (
     <CartContext.Provider value={cart}>
       <Nav />
