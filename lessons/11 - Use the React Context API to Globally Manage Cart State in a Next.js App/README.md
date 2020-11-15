@@ -104,3 +104,16 @@ Then, find the `checkout` function inside of the cart state and trigger the chec
 
 #### Where We'll Make Changes
 * `components/Nav/Nav.js`
+
+## Extra Credit
+
+### 1. Set the navigation total cart cost to always show 2 decimal places
+
+When we're passing around our data through React and adding everything together, we end up with a whole number which no longer shows the "cents" or "change". This is because all of our products are rounded to `.00`.
+
+To be consistent, we typically want to show the two decimal places so our customers know for sure that's what they're paying.
+
+Update the navigation total cart cost to always show two decimal places.
+
+#### Where We'll Make Changes
+* `components/Nav/Nav.js`
