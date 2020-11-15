@@ -10,12 +10,18 @@ const defaultCart = {
 
 /**
  * @lesson-11-todo Exercise 1
- *
+ * We want our shopping cart state to be available globally.
+ * What React API can we use to make data available to
+ * an entire component tree?
  */
 
 /**
  * @lesson-11-todo Exercise 3
- *
+ * When this hook is used, it's currently managing local state,
+ * meaning, it's not going to persist throughout the app. If
+ * we create a separate hook called useCart to consume the
+ * global Context, what should we do with this one to still
+ * be useable?
  */
 
 export default function useCart() {
@@ -78,5 +84,7 @@ export default function useCart() {
 
 /**
  * @lesson-11-todo Exercise 3
- *
+ * Not only do we want a way to manage our state, we want
+ * a way to consume our cart Context. Can we create a
+ * separate hook to consume our Context?
  */

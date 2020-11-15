@@ -5,7 +5,10 @@ import styles from './Nav.module.css';
 const Nav = () => {
   /**
    * @lesson-11-todo Exercise 5
-   *
+   * Now that can access our cart state anywhere, how
+   * can we grab the total cost to show in our
+   * navigation and provide a way for someone to
+   * check out?
    */
   return (
     <nav className={styles.nav}>

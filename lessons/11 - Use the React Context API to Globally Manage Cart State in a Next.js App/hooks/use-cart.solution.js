@@ -10,14 +10,18 @@ const defaultCart = {
 
 /**
  * @lesson-11-solution Exercise 1
- *
+ * We can use the React Context API to create a new
+ * instance of Context that we can later use to
+ * consume state globally.
  */
 
 export const CartContext = createContext();
 
 /**
  * @lesson-11-solution Exercise 3
- *
+ * We can simply rename our hook that manages the state to
+ * useCartState, allowing us to have a function name that
+ * makes sense, but still use it to access our state.
  */
 
 export function useCartState() {

@@ -7,7 +7,11 @@ import { useCart } from '../../hooks/use-cart.solution.js';
 const Nav = () => {
   /**
    * @lesson-11-solution Exercise 5
-   *
+   * We can import the useCart state then grab the
+   * subtotal and the checkout function, making our
+   * total visible in the navigation and then triggering
+   * the checkout functionality any time our cart
+   * is clicked.
    */
   const { subtotal, checkout } = useCart();
   return (
