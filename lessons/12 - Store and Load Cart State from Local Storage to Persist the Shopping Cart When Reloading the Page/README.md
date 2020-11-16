@@ -28,7 +28,7 @@ In lesson 12, we'll learn how to use the browser's localStorage API, which will 
 
 > 👋 **Hey! Quick Note**
 >
-> Similar to lesson 11, you're not able to see the solution live in the browser by just going to the /solutions page. Instead, if you want to preview the solution in your browser, you need to rename the pages/_app.solution.js file to _app.js. Be sure to first rename the original pages/_app.js file to something like _app.original.js though so you don't lose it!
+> Similar to lesson 11, you're not able to see the solution live in the browser by just going to the /solution page. Instead, if you want to preview the solution in your browser, you need to rename the pages/_app.solution.js file to _app.js. Be sure to first rename the original pages/_app.js file to something like _app.original.js though so you don't lose it!
 
 ### 1. Understanding how state persists between pages in React
 
