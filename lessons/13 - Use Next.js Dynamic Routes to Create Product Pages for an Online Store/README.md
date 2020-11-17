@@ -34,6 +34,9 @@ We can see that we've started Lesson 13 off with a new static route at `/pages/p
 
 For exercise 1, take some time to look at the static `productId.js` page and see how when creating that new file, we can immediately use that new static route.
 
+#### Where you should be looking
+* `/pages/products/productId.js`
+
 #### Resources
 * [Pages - Next.js](https://nextjs.org/docs/basic-features/pages) (nextjs.org)
 
