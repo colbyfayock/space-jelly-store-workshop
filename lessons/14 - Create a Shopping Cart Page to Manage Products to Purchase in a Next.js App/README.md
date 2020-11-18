@@ -23,6 +23,10 @@ Using global state, we'll add the products our customers currently have in their
 
 🕵️‍♂️ Use the `@lesson-14-todo` key to search for this lesson's assignments in the code!
 
+> 👋 **Hey! Quick Note**
+>
+> Like other lessons, the solution isn't immediately available to view in your browser due to the complexity of maintaining our global cart state. You can still follow along with the code and see your changes live in the browser!
+
 ### 1. Review shopping cart page
 
 As we learned in Lesson 13, not only can we create static pages, we can create dynamic ones too using dynamic routes.

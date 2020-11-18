@@ -1,0 +1,186 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  padding: 3rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  margin-bottom: 1.5em;
+}
+
+.title svg {
+  margin-right: .5em;
+}
+
+.checkout {
+  font-size: 1.5rem;
+  margin-top: 2em;
+}
+
+.table {
+  font-size: 1.2rem;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer img {
+  margin-left: 0.5rem;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  text-align: center;
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  max-width: 60em;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 3rem;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1.5rem;
+  flex-basis: calc(50% - 2rem);
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+
+@media (min-width: 960px ) {
+  .card {
+    flex-basis: calc(33.33% - 2rem);
+  }
+}
+
+.card:hover img {
+  box-shadow: 0 2px 12px rgba(0,0,0,.1);
+}
+
+.card img {
+  display: block;
+  max-width: 100%;
+  padding: .5em;
+  border-radius: .5em;
+  margin: 0 -.5em 1em;
+}
+
+.card h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0 0 1em;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+.button {
+  color: white;
+  font-family: inherit;
+  font-size: .9em;
+  font-weight: 700;
+  background-color: blueviolet;
+  padding: .8em 1.4em;
+  border-radius: .2em;
+  border: 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .4);
+  cursor: pointer;
+}
+
+.cart {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.cart li {
+  display: flex;
+  align-items: center;
+  margin: 0 .5em;
+}
+
+.cart strong,
+.cart svg {
+  margin-right: .4em;
+}
+
+.cartButton {
+  display: inline-flex;
+  align-items: center;
+  color: blueviolet;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+.cartQuantity input {
+  width: 5em;
+  padding: .45em;
+}
+
+.cartQuantity button {
+  font-size: .6em;
+  margin-left: 1em;
+}
