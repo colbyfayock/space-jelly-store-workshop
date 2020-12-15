@@ -1,8 +1,8 @@
-# 🛒 Create an Ecommerce Store with Next.js & Stripe
+# 🛒 Create an eCommerce Store with Next.js and Stripe Checkout
 
 * Demo: https://space-jelly-store.netlify.app/
 
-In this workshop...
+In this workshop you'll learn how to build a new ecommerce store from scratch using Next.js and Stripe Checkout.
 
 * [Workshop Overview](#workshop-overview)
 * [Who Am I?](#who-am-i)
