@@ -11,7 +11,15 @@ In this workshop you'll learn how to build a new ecommerce store from scratch us
 
 ## 🔍 Workshop Overview
 Excited to learn? You should be! Here's some of the stuff we'll learn in this workshop:
-* TODO
+* Create a new Next.js app from scratch
+* Add and manage a dynamic grid of products
+* Set up and configure products in Stripe
+* Manage local state with React's useState hook
+* Create a custom React hook
+* Use the React Context API to manage global state
+* Store and persist app state with localstorage
+* Integrate Stripe Checkout to let people purchase your products
+* Deploy an app to Vercel
 
 ## 👨‍🚀 Who Am I?
 I'm Colby Fayock! 👋
