@@ -75,7 +75,13 @@ This should kick off a new server available at http://localhost:3000.
 If you've successfully started up your development server, you should be ready to go for the workshop!
 
 ### What's In This Project?
-TODO
+We'll start off by creating a new app from scratch with Create Next App. In our new app, we'll add products and dynamically manage them using an external json file as our data source.
+
+Using React's APIs like useState and the Context API, we'll create a shopping cart that allows customers to add and manage products in that cart. We'll also use localstorage to store that shopping cart and persist it when our customers reload the page.
+
+With our app, we'll set up and configure products in Stripe, which will allow our customers to purchase those products using Stripe Checkout.
+
+Finally, we'll deploy this app to Vercel so our customers can easily purchase our products!
 
 ## 🖥 The Workshop
 
