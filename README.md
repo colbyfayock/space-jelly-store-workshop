@@ -14,20 +14,26 @@ Excited to learn? You should be! Here's some of the stuff we'll learn in this wo
 * TODO
 
 ## 👨‍🚀 Who Am I?
-I'm Colby Fayock!
+I'm Colby Fayock! 👋
+
+Learning by doing is the best way to learn something new and that’s the approach I take when I help others learn about Javascript, React, and the static web through [writing](https://www.freecodecamp.org/news/author/colbyfayock/), [videos on Youtube](https://www.youtube.com/colbyfayock), and [courses on egghead.io](https://egghead.io/instructors/colby-fayock?af=atzgap).
+
+I try to bring this passion from my work tackling challenges like high scale video streaming services, ecommerce with [ThinkGeek](https://twitter.com/thinkgeek), satellite dashboards, and working as a Developer Advocate for [Applitools](https://applitools.com/).
+
+In addition to all of my other work, I've published two books [Jamstack Handbook](https://jamstackhandbook.com/) — which includes everything you need to know about the Jamstack with 3 step-by-step tutorials — and [50 Projects for React and the Static Web](https://50reactprojects.com/) — which is a free ebook that includes 50 project ideas complete with project briefs, resources, and even design layout ideas.
 
 You can also find me on Twitter at [@colbyfayock](https://twitter.com/colbyfayock)!
 
 ## 🧰 Before the Workshop
 
-There are a few things that you would ideally have done before we jump into the workshop:
+There's really one thing you would ideally have done before we jump into the workshop:
 * Make sure you're set up with the minimum environment requirements
 
 ### Environment Requirements
-There are only a few things that are probably considered "strict" requirements for the workshop:
+There's also only one thing that is probably considered a "strict" requirement for the workshop:
 * [node](https://nodejs.org/en/)
 
-The **operating system** you use shouldn't matter as long as you can run commands with yarn or npm.
+The **operating system** you use shouldn't matter as long as you can run commands with npm (or yarn if that's your thing).
 
 If you can run `npm -v`, you should be good to go.
 
@@ -102,3 +108,7 @@ For example, if we want to find all of the spots where we should be working for 
 ### Feedback
 
 The good, the bad -- I want to know! I would really appreciate you taking any time to hop in this survey and be honest about your experience with the workshop. Please take into consideration both how much you've enjoyed the workshop and how much you felt you've learned.
+
+[Take the survey!](https://forms.gle/Lt2Z5hrGm6UWAApa6)
+
+Or https://forms.gle/Lt2Z5hrGm6UWAApa6
