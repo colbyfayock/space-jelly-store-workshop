@@ -53,7 +53,7 @@ This will install all of the required dependencies to get started for the lesson
 After all of the dependencies are installed for the lesson, you should be good to go!
 * Run:
 ```
-npm run develop
+npm run dev
 ```
 
 This should kick off a new server available at http://localhost:3000.
@@ -79,7 +79,22 @@ For example, if we want to find all of the spots where we should be working for 
 
 ### Lesson Plan
 
-* 00 - Introduction
+* [00 - Introduction](https://github.com/colbyfayock/space-jelly-store-workshop/tree/main/lessons/00%20-%20Introduction)
+* [01 - Create a New React Application with Next.js](https://github.com/colbyfayock/space-jelly-store-workshop/tree/main/lessons/01%20-%20Create%20a%20New%20React%20Application%20with%20Next.js)
+* [02 - Add a Grid of Products with Images to a Next.js React App](https://github.com/colbyfayock/space-jelly-store-workshop/tree/main/lessons/02%20-%20Add%20a%20Grid%20of%20Products%20with%20Images%20to%20a%20Next.js%20React%20App)
+* [03 - Add and Configure Products in the Stripe Dashboard for an Online Store](https://github.com/colbyfayock/space-jelly-store-workshop/tree/main/lessons/03%20-%20Add%20and%20Configure%20Products%20in%20the%20Stripe%20Dashboard%20for%20an%20Online%20Store)
+* [04 - Dynamically Manage a Grid of Products in an Online Store with a JSON Document](https://github.com/colbyfayock/space-jelly-store-workshop/tree/main/lessons/04%20-%20Dynamically%20Manage%20a%20Grid%20of%20Products%20in%20an%20Online%20Store%20with%20a%20JSON%20Document)
+* [05 - Host & Deploy a Next.js React app on Vercel](https://github.com/colbyfayock/space-jelly-store-workshop/tree/main/lessons/05%20-%20Host%20%26%20Deploy%20a%20Next.js%20React%20app%20on%20Vercel)
+* [06 - Configure a Stripe Checkout Domain for Client-Only Integration](https://github.com/colbyfayock/space-jelly-store-workshop/tree/main/lessons/06%20-%20Configure%20a%20Stripe%20Checkout%20Domain%20for%20Client-Only%20Integration)
+* [07 - Add a Stripe API Key as an Environment Variable in Next.js & Vercel](https://github.com/colbyfayock/space-jelly-store-workshop/tree/main/lessons/07%20-%20Add%20a%20Stripe%20API%20Key%20as%20an%20Environment%20Variable%20in%20Next.js%20%26%20Vercel)
+* [08 - Add a Buy Now Button and Integrate Stripe Checkout to Purchase Products in a Next.js Online Store](https://github.com/colbyfayock/space-jelly-store-workshop/tree/main/lessons/08%20-%20Add%20a%20Buy%20Now%20Button%20and%20Integrate%20Stripe%20Checkout%20to%20Purchase%20Products%20in%20a%20Next.js%20Online%20Store)
+* [09 - Create a Shopping Cart with the useState React Hook to Manage Product Quantity and Total](https://github.com/colbyfayock/space-jelly-store-workshop/tree/main/lessons/09%20-%20Create%20a%20Shopping%20Cart%20with%20the%20useState%20React%20Hook%20to%20Manage%20Product%20Quantity%20and%20Total)
+* [10 - Create a Custom React Hook to Manage Cart State](https://github.com/colbyfayock/space-jelly-store-workshop/tree/main/lessons/10%20-%20Create%20a%20Custom%20React%20Hook%20to%20Manage%20Cart%20State)
+* [11 - Use the React Context API to Globally Manage Cart State in a Next.js App](https://github.com/colbyfayock/space-jelly-store-workshop/tree/main/lessons/11%20-%20Use%20the%20React%20Context%20API%20to%20Globally%20Manage%20Cart%20State%20in%20a%20Next.js%20App)
+* [12 - Store and Load Cart State from Local Storage to Persist the Shopping Cart When Reloading the Page](https://github.com/colbyfayock/space-jelly-store-workshop/tree/main/lessons/12%20-%20Store%20and%20Load%20Cart%20State%20from%20Local%20Storage%20to%20Persist%20the%20Shopping%20Cart%20When%20Reloading%20the%20Page)
+* [13 - Use Next.js Dynamic Routes to Create Product Pages for an Online Store](https://github.com/colbyfayock/space-jelly-store-workshop/tree/main/lessons/13%20-%20Use%20Next.js%20Dynamic%20Routes%20to%20Create%20Product%20Pages%20for%20an%20Online%20Store)
+* [14 - Create a Shopping Cart Page to Manage Products to Purchase in a Next.js App](https://github.com/colbyfayock/space-jelly-store-workshop/tree/main/lessons/14%20-%20Create%20a%20Shopping%20Cart%20Page%20to%20Manage%20Products%20to%20Purchase%20in%20a%20Next.js%20App)
+* [15 - Add a Quantity Input to the Cart Page to Add or Remove Items from a Shopping Cart in Next.js](https://github.com/colbyfayock/space-jelly-store-workshop/tree/main/lessons/15%20-%20Add%20a%20Quantity%20Input%20to%20the%20Cart%20Page%20to%20Add%20or%20Remove%20Items%20from%20a%20Shopping%20Cart%20in%20Next.js)
 
 ## 🎓 After the Workshop
 
