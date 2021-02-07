@@ -10,7 +10,7 @@
   "dependencies": {
     "@stripe/stripe-js": "^1.11.0",
     "dotenv": "^8.2.0",
-    "next": "9.5.5",
+    "next": "^10.0.6",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-icons": "^3.11.0"
